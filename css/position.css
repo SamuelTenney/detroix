@@ -1,0 +1,209 @@
+/* 
+colors =>
+
+primary color    #131c29
+secondary color  #ff8901
+link color       #596573
+top gradient     #33597e
+bottom gradient  #0f1721
+footer           #0b1016
+button color     #213349
+date 1           #be8442
+date 2           #be6142
+date 3           #bd425f
+
+fonts =>
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+:root {
+    --prim: #131c29;
+    --sec: #ff8901;
+    --btnColor: #213349;
+    --footerColor: #0b1016;
+    --primFont: 'Oswald', sans-serif;
+    --secFont: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+a:hover {
+    color: var(--sec);
+}
+
+body {
+
+    background-color: #f3f4f6;
+    margin: 0;
+    margin-right: 500px;
+    
+    
+    
+}
+
+a { 
+    text-decoration: none;
+    transition: color 0.7s ease;
+    
+    padding: 0;
+    }
+
+    
+
+    .header .inner {
+        position: relative;
+        height: 40px;
+        }
+    
+    
+
+
+    .top-section {
+        padding: 0px 0;
+        width: 100%;
+        background-color: var(--prim);
+        
+        
+    }
+    
+    .top-section .inner {
+        font-family: var(--secFont);
+        font-size: 10px;
+        text-transform: uppercase;
+        
+        
+        
+    }
+
+    .top-nav {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 14px;
+        right: 20px;
+        font-size: 12px;
+        }
+
+    .top-list {
+        margin: 0;
+        padding-bottom: 10px;
+        list-style-type: none;
+        text-align: right;
+    }
+    .demolink {
+        position: absolute;
+        top: 14px;
+        left: 70px;
+        font-size: 12px;
+    }
+
+.top-list-item {
+    padding: 0;
+    list-style-type:none;
+    text-align: right;
+    display: inline;
+    padding-right:  4px;
+    border-right: 1px solid #596573;
+    }
+
+    .top-list-item:last-child {
+        border: none;
+    }
+    .demolink, .top-list-item a {
+        color: #596573;
+
+
+    }
+.bottom-section .inner {
+        position: relative;
+        height: 250px;
+    }
+
+.logo{position: absolute;
+    left: 50px;
+    bottom: 120px;
+    
+}
+
+.bottom-list {
+    position: absolute;
+    right: 30px;
+    list-style-type: none;
+    text-align: right;
+    top: 47px;
+}
+
+.bottom-list-item {
+    display: inline;
+    padding: 10px 15px;
+    background-color: var(--prim);
+    font-family: var(--primFont);
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+    
+}
+
+
+.bottom-list-item:hover {
+    background-color: var(--sec);
+
+}
+
+.bottom-list-item a  {
+    color: white;
+}
+
+.hero-img {
+    position: absolute;
+    left: 53px;
+    bottom: 75px;
+    border-radius: 10px;
+
+}
+
+.sliders {
+    position: absolute;
+    margin: 20px auto;
+    width: 150px;
+    height: 25px;
+    
+    
+}
+
+.slider {
+    display:block:
+    
+    position: absolute;
+    margin-right: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: inline-block;
+    margin 100
+}
+.slider:hover {
+    background-color: #ff8901;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
